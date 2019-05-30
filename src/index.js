@@ -7,6 +7,7 @@ document.addEventListener("DOMContentLoaded", () => {
     form.addEventListener("submit", event => {
       const input = document.querySelector("input").value
       const ul = document.querySelector("ul")
-      ul.innerHTML += `<li></li>`
+      ul.innerHTML += `<li>${input}</li>`
+
     })
 });
