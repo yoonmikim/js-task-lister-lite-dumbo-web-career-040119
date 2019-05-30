@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", () => {
   // your code here
-  function fetchTask(){
-    fetch("")
-  }
+  // function fetchTask(){
+  //   fetch("")
+  // }
   
 });
